@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.com">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Home Page</title>
+  </head>
+  <body>
+ 
+  <!--  navbar-->
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Volkswagen</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Emp Details</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="addemp">Add Employee</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div style="background-color:rgb(211, 223, 233);">
+<section class="container py-5 ">
+        <div class="row align-items-center py-1 py-sm-3 py-md-4 my-lg-2">
+          <div class="col-lg-4 offset-xl-1">
+            <h2 class="h1 text-lg-start pb-3 pb-lg-1">Our servises</h2>
+
+            <!-- Show on screens > 992px -->
+            <ul class="list-unstyled d-none d-lg-block pb-3 mb-3 mb-lg-4">
+              <li class="d-flex pt-2">
+                <i class="ai-check-alt fs-4 text-primary mt-n1 me-2"></i>
+                Volkswagen Care Plans
+              </li>
+              <li class="d-flex pt-2">
+                <i class="ai-check-alt fs-4 text-primary mt-n1 me-2"></i>
+               Vehicle Health Check-ups
+              </li>
+              <li class="d-flex pt-2">
+                <i class="ai-check-alt fs-4 text-primary mt-n1 me-2"></i>
+                Volkswagen Financial Services
+              </li>
+            </ul>
+          
+          </div>
+
+          <div class="col-lg-8 col-xl-7 col-xxl-6">
+            <div class="row row-cols-1 row-cols-sm-2">
+              <div class="col">
+                <div class="card border-0 bg-primary bg-opacity-10">
+                  <div class="card-body">
+                    <i class="ai-search-settings fs-1 text-primary d-block mb-3"></i>
+                    <h3 class="h4">Scheduled Maintenance</h3>
+                    <p class="fs-sm"> Volkswagen provides scheduled maintenance services for their vehicles, including regular check-ups, oil changes, filter replacements, and inspections </p>
+                  </div>
+                </div>
+                <div class="card border-0 bg-info bg-opacity-10 mt-4">
+                  <div class="card-body">
+                    <i class="ai-bulb-alt fs-1 text-info d-block mb-3"></i>
+                    <h3 class="h4">Repairs and Warranty Services</h3>
+                    <p class="fs-sm"> Depending on the warranty status of the vehicle, these repairs may be covered under warranty.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col pt-lg-3">
+                <div class="card border-0 bg-warning bg-opacity-10 mt-4 mt-sm-0 mt-lg-4">
+                  <div class="card-body">
+                    <i class="ai-mail-filled fs-1 text-warning d-block mb-3"></i>
+                    <h3 class="h4">Roadside Assistance</h3>
+                    <p class="fs-sm">Many Volkswagen vehicles come with roadside assistance services, providing support in case of emergencies such as breakdowns, flat tires, or accidents.</p>
+                  </div>
+                </div>
+                <div class="card border-0 bg-danger bg-opacity-10 mt-4">
+                  <div class="card-body">
+                    <i class="ai-telegram fs-2 text-danger d-block mb-3"></i>
+                    <h3 class="h4">Genuine Parts and Accessories</h3>
+                    <p class="fs-sm">Volkswagen provides genuine parts and accessories for their vehicles, ensuring compatibility and quality. </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Show button on screens < 992px -->
+            <div class="d-lg-none text-center pt-3 mt-3 mt-sm-4">
+              <a class="btn btn-primary" href="#">See all servises</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+</div>
+
+<div>
+<div style="background-color:white;">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3 text-center"><span class="badge bg-light text-dark mb-20 animated" data-show="startbox" style="transform: translateY(0px); transition-duration: 500ms; opacity: 1;">Who we are</span>
+                    <br>
+                    <br>
+                        <h2 class="m-0 animated" data-show="startbox" data-show-delay="100" style="transform: translateY(0px); transition-duration: 500ms; opacity: 1;">Some facts about us</h2>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+                <div class="row  p-20 ">
+                    <div class="col-lg-4">
+                        <!-- Item-->
+                        
+                        <div class="d-flex animated" data-show="startbox" style="transform: translateY(0px); transition-duration: 500ms; opacity: 1;">
+                            <div class="flex-shrink-0">
+                                <div class="circle-icon text-white bg-accent-1 mt-10"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="25" fill="none">
+                                        <path fill="currentColor" fill-rule="evenodd" d="M8.8.75c-.938 0-1.822.394-2.463 1.07a3.64 3.64 0 0 0-.987 2.502V10H2.2C.985 10 0 10.96 0 12.143v10.714C0 24.041.985 25 2.2 25h17.6c1.215 0 2.2-.96 2.2-2.143V12.143C22 10.959 21.015 10 19.8 10h-3.15V4.322c0-.926-.348-1.827-.987-2.502A3.393 3.393 0 0 0 13.2.75H8.8ZM14.15 10V4.322a1.14 1.14 0 0 0-.302-.782.893.893 0 0 0-.648-.29H8.8a.893.893 0 0 0-.649.29 1.14 1.14 0 0 0-.301.782V10h6.3Z" clip-rule="evenodd"></path>
+                                    </svg></div>
+                            </div>
+                            <div class="flex-grow-1 ms-40">
+                                <div class="h1 m-0">50+</div>
+                                <div class="h6 mb-15">Technologies</div>
+                                <p class="font-size-15 m-0">Currently working on more than 50 popular and cutting edge technologies</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Item-->
+                        <div class="d-flex animated" data-show="startbox" style="transform: translateY(0px); transition-duration: 500ms; opacity: 1;">
+                            <div class="flex-shrink-0">
+                                <div class="circle-icon text-white bg-accent-1 mt-10"><svg xmlns="http://www.w3.org/2000/svg" width="29" height="27" fill="none">
+                                        <path fill="currentColor" d="m14.5 0 4.48 8.886L29 10.32l-7.25 6.913L23.461 27 14.5 22.386 5.539 27l1.711-9.767L0 10.32l10.02-1.434L14.5 0Z"></path>
+                                    </svg></div>
+                            </div>
+                            <div class="flex-grow-1 ms-40">
+                                <div class="h1 m-0">8+</div>
+                                <div class="h6 mb-15">Years of experience</div>
+                                <p class="font-size-15 m-0">Providing IT services with more than 8 years of experience</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- Item-->
+                        <div class="d-flex animated" data-show="startbox" style="transform: translateY(0px); transition-duration: 500ms; opacity: 1;">
+                            <div class="flex-shrink-0">
+                                <div class="circle-icon text-white bg-accent-1 mt-10"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="28" fill="none">
+                                        <path fill="currentColor" d="M25.25 14a1 1 0 1 0-2 0h2Zm-22.5 0a1 1 0 1 0-2 0h2Zm-2-8.75v17.5h2V5.25h-2Zm0 17.5c0 .953.576 1.704 1.258 2.245.692.549 1.632.998 2.707 1.357C6.874 27.072 9.798 27.5 13 27.5v-2c-3.048 0-5.749-.41-7.652-1.045-.957-.32-1.657-.678-2.098-1.027-.45-.358-.5-.594-.5-.678h-2ZM13 27.5c3.202 0 6.126-.428 8.285-1.148 1.075-.359 2.015-.808 2.707-1.357.682-.54 1.258-1.292 1.258-2.245h-2c0 .084-.05.32-.5.678-.44.349-1.141.707-2.098 1.027C18.75 25.09 16.048 25.5 13 25.5v2Zm12.25-4.75V5.25h-2v17.5h2ZM13 10c3.184 0 6.108-.429 8.271-1.15 1.076-.358 2.02-.808 2.714-1.355.683-.538 1.265-1.29 1.265-2.245h-2c0 .08-.048.315-.503.674-.444.35-1.149.71-2.108 1.029C18.729 7.589 16.029 8 13 8v2Zm12.25-4.75c0-.955-.582-1.707-1.265-2.245-.695-.547-1.638-.997-2.714-1.355C19.108.929 16.184.5 13 .5v2c3.029 0 5.73.41 7.639 1.047.96.32 1.664.679 2.108 1.029.455.359.503.594.503.674h2ZM13 .5C9.816.5 6.892.929 4.729 1.65c-1.076.358-2.02.808-2.714 1.355C1.332 3.543.75 4.295.75 5.25h2c0-.08.048-.315.503-.674.444-.35 1.149-.71 2.108-1.029C7.271 2.911 9.971 2.5 13 2.5v-2ZM.75 5.25c0 .955.582 1.707 1.265 2.245.695.547 1.638.997 2.714 1.355C6.892 9.571 9.816 10 13 10V8c-3.029 0-5.73-.41-7.639-1.047-.96-.32-1.664-.679-2.108-1.029-.455-.359-.503-.594-.503-.674h-2ZM23.25 14c0 .084-.05.32-.5.678-.44.349-1.141.707-2.098 1.027-1.903.635-4.604 1.045-7.652 1.045v2c3.202 0 6.126-.428 8.285-1.148 1.075-.359 2.015-.808 2.707-1.357.682-.54 1.258-1.292 1.258-2.245h-2ZM13 16.75c-3.048 0-5.749-.41-7.652-1.045-.957-.32-1.657-.678-2.098-1.027-.45-.358-.5-.594-.5-.678h-2c0 .953.576 1.705 1.258 2.245.692.549 1.632.998 2.707 1.357 2.159.72 5.083 1.148 8.285 1.148v-2Z"></path>
+                                    </svg></div>
+                            </div>
+                            <div class="flex-grow-1 ">
+                                <div class="h1 m-0">2600+</div>
+                                <div class="h6 mb-15">Employees</div>
+                                <p class="font-size-15 m-0">More than 2600 employees are working with volkswagen</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rounded-4 bg-dark">
+                    <!-- Shape-->
+                   
+                </div>
+            </div>
+        </div>
+
+</div>
+<div style="background-color:rgb(253, 251, 234)">
+<h1 style="margin:100px 50px 20px 550px; padding:30px;">Employee Details..</h1>
+  
+  <div class="container p-3 my-7" >
+  <table class="table table-dark table-striped">
+  <thead class="bg-success">
+    <tr >
+      <th scope="col">Id</th>
+      <th scope="col">Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">Email</th>
+      <th scope="col">Phone no</th>
+      <th scope="col">Salary</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr th:each="e: ${emp}">
+      <th th:text="${e.id}">1</th>
+      <td th:text="${e.name}">Mark</td>
+      <td th:text="${e.address}"></td>
+      <td th:text="${e.email}"></td>
+      <td th:text="${e.phno}"></td>
+      <td th:text="${e.salary}"></td>
+      <td>
+      <a class="btn btn-sm btn-primary" th:href="@{/edit/{id}(id=${e.id})}">Edit</a>
+      <a class="btn btn-sm btn-danger" th:href="@{/delete/{id}(id=${e.id})}">Delete</a>
+    </tr>
+   
+  </tbody>
+</table>
+  
+  </div>
+  
+  <div style="background-color:rgb(206, 215, 207);">
+  <section class="pt-5 pb-4">
+        <div class="container py-lg-2 py-xl-4 py-xxl-5">
+          <div class="row mt-1 pt-sm-2 pt-md-3 pt-lg-4">
+            <div class="col-lg-5 mb-5 mb-lg-0">
+              <h2 class="h1" >Why Volkswagen..</h2>
+              <p class="pb-1 pb-md-0 mb-4 mb-md-5">We are Globally the most innovative Software Product and Solutions Delivery Organization in the group</p>
+              <h3 class="mb-4">For any Query Reach us at: </h3>
+              <h5>help@volkswagen.co.in</h5>
+
+              <!-- Contact form -->
+              <form class="needs-validation row g-4" novalidate="">
+               
+              </form>
+            </div>
+
+            <!-- Benefits -->
+            <div class="col-lg-7 col-xl-6 offset-xl-1">
+              <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col">
+
+                  <!-- Card -->
+                  <div class="card border-0 mb-4">
+                    <div class="card-body">
+                      <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="text-warning" d="M31.5412 14.6389C30.9843 23.6874 23.7303 30.927 14.6641 31.4828V35.9999H36.0671V14.6389H31.5412Z" fill="currentColor"></path>
+                        <path class="text-primary" d="M13.5469 27.0373C21.0277 27.0373 27.0922 20.9848 27.0922 13.5186H13.5469V27.0373Z" fill="currentColor"></path>
+                        <path class="text-warning" d="M26.3276 9.03734C24.475 3.77395 19.4522 0 13.5453 0C6.06443 0 0 6.0525 0 13.5187C0 19.4139 3.78139 24.4269 9.05514 26.2758V9.03734H26.3276Z" fill="currentColor"></path>
+                      </svg>
+                      <p class="card-text fs-sm">The Volkswagen Group, with its headquarters in Wolfsburg, is one of the world's leading automobile manufacturers and the largest carmaker in Europe.</p>
+                    </div>
+                  </div>
+
+                  <!-- Card -->
+                  <div class="card border-0 bg-info" data-bs-theme="dark">
+                    <div class="card-body">
+                      <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.7496 11.4756C25.3743 8.85089 25.3743 4.59539 22.7496 1.97068C20.1249 -0.654032 15.8694 -0.654033 13.2447 1.97068C10.6199 4.59539 10.6199 8.85089 13.2447 11.4756C15.8694 14.1003 20.1249 14.1003 22.7496 11.4756Z" fill="white"></path>
+                        <path class="text-warning" d="M13.2173 26.3746C14.0903 24.3107 15.2282 22.395 16.6119 20.6516C12.48 16.1818 6.56698 13.3827 0 13.3827V36H11.2733C11.2733 32.6628 11.9274 29.4243 13.2173 26.3746Z" fill="currentColor"></path>
+                        <path class="text-warning" d="M36.0001 36.0001V13.3828C23.5089 13.3828 13.3828 23.5089 13.3828 36.0001H36.0001Z" fill="currentColor"></path>
+                      </svg>
+                      <p class="card-text fs-sm">The Group comprises twelve brands from seven European countries: Volkswagen Passenger Cars, Audi, SEAT, SKODA, Bentley, Bugatti, Lamborghini, Porsche, Ducati, Volkswagen Commercial Vehicles, Scania and MAN.</p>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col d-flex flex-column pt-4 mt-sm-3">
+
+                  <!-- Card -->
+                  <div class="card border-0 order-sm-2 mb-4 mb-sm-0">
+                    <div class="card-body">
+                      <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="text-warning" d="M31.5412 14.6389C30.9843 23.6874 23.7303 30.927 14.6641 31.4828V35.9999H36.0671V14.6389H31.5412Z" fill="currentColor"></path>
+                        <path class="text-primary" d="M13.5469 27.0373C21.0277 27.0373 27.0922 20.9848 27.0922 13.5186H13.5469V27.0373Z" fill="currentColor"></path>
+                        <path class="text-warning" d="M26.3276 9.03734C24.475 3.77395 19.4522 0 13.5453 0C6.06443 0 0 6.0525 0 13.5187C0 19.4139 3.78139 24.4269 9.05514 26.2758V9.03734H26.3276Z" fill="currentColor"></path>
+                      </svg>
+                      <p class="card-text fs-sm">Under the vision "Mobility for generations to come." the Volkswagen Group with its sharpened NEW AUTO Group strategy 2030 provides answers to the challenges of today and tomorrow.</p>
+                    </div>
+                  </div>
+
+                  <!-- Card -->
+                  <div class="card border-0 bg-info order-sm-1 mb-sm-4" data-bs-theme="dark">
+                    <div class="card-body">
+                      <svg class="d-block mb-3" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22.4844 22.4814H36.0031V36.0001H22.4844V22.4814Z" fill="white"></path>
+                        <path class="text-warning" d="M8.96266 18C8.96266 13.0088 13.0088 8.96266 18 8.96266C22.9912 8.96266 27.0373 13.0088 27.0373 18H36C36 8.05887 27.9411 0 18 0C8.05887 0 0 8.05887 0 18C0 27.9411 8.05887 36 18 36V27.0373C13.0088 27.0373 8.96266 22.9912 8.96266 18Z" fill="currentColor"></path>
+                      </svg>
+                      <p class="card-text fs-sm">The Group operates 118 production plants in 20 European countries and a further 10 countries in the Americas, Asia and Africa.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  </div>
+  
+  
+  <!--  table-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </body>
+</html>
