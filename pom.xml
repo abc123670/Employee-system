@@ -55,6 +55,10 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+<<<<<<< HEAD
+=======
+		<finalName>Employee-system</finalName>
+>>>>>>> 7aa4a12 (new commit)
 	</build>
 
 </project>
