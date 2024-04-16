@@ -13,7 +13,6 @@ phases:
     commands:
       - echo Build started on `date`
       - echo building the Jar file
-      - mvn clean install
       - echo Building the Docker image...
       - docker build -t $REPOSITORY_URI:latest .
       - docker tag $REPOSITORY_URI:latest $REPOSITORY_URI:$IMAGE_TAG
@@ -25,7 +24,7 @@ phases:
       - docker push $REPOSITORY_URI:$IMAGE_TAG
       - echo Writing image definitions file...
       # Give your container name
-      - DOCKER_CONTAINER_NAME=employee-system-ecr
+      - DOCKER_CONTAINER_NAME=sb-project-repo
       - printf '[{"name":"%s","imageUri":"%s"}]' $DOCKER_CONTAINER_NAME $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
       - echo $DOCKER_CONTAINER_NAME
       - echo printing imagedefinitions.json
